@@ -34,7 +34,7 @@ services:
     depends_on:
     - web
 
-  postgres_exporter:
+  mysqld_exporter:
     image: quay.io/prometheus/mysqld-exporter
     ports:
     - 9104:9104
